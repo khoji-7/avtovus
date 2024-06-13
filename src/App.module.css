@@ -1,0 +1,245 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/* navbar */
+
+.navbar{
+  max-width: 1920px;
+  width: 100%;
+  background-color: #181818;
+}
+.navbar .container{
+  max-width: 1296px;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbarLogoImg{
+  width: 54px;
+  height: 69px;
+}
+.navbarInfo{
+  display: flex;
+  flex-direction: column;
+  max-width: 1210px;
+  width: 100%;
+  gap: 10px;
+}
+.navbarInfoLoc{
+  display: flex;
+  flex-direction: row;
+  max-width: 1210px;
+  width: 100%;
+  justify-content: space-between;
+}
+.navbarInfoLocAdress{
+  display: flex;
+  flex-direction: row;
+  max-width: 450px;
+  width: 100%;
+}
+.navbarInfoLocAdressP{
+  color: #939697;
+  font-size: 14px;
+  font-weight: 500;
+}
+.navbarInfoLocSer{
+  display: flex;
+  flex-direction: row;
+  max-width: 350px;
+  width: 100%;
+  justify-content: space-between;
+}
+.navbarInfoLocSerChild{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 5px;
+  align-items: center;
+  justify-content: end;
+}
+.navbarInfoLocSerP{
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);   
+}
+.navbarInfoLine{
+  max-width: 1210px;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.navbarInfoCont{
+  display: flex;
+  flex-direction: row;
+  max-width: 1210px;
+  width: 100%;
+  justify-content: space-between;
+}
+.navbarInfoContTitle{
+  display: flex;
+  flex-direction: row;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  gap: 20px;
+}
+.navbarInfoContTitleH{
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.navbarInfoContTitleLine{
+  width: 1px;
+  height: 30px;
+  background-color:  rgba(255, 255, 255, 0.2);
+}
+.navbarInfoContTitleP{
+  font-size: 18px;
+  font-weight: 300;
+}
+.navbarInfoContNum{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.navbarInfoContNumChild{
+
+}
+.navbarInfoContNumChildNum{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.navbarInfoContNumChildStatusParent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+}
+.navbarInfoContNumChildStatus{
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: rgb(0, 209, 84);
+}
+.navbarInfoContNumChildP{
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(147, 150, 151);
+}
+.navbarInfoContNumBtn{
+  display: flex;
+  flex-direction: row;
+  max-width: 196px;
+  padding: 14px 30px;    
+  border-radius: 8px;
+  background-color: rgb(255, 149, 73);
+  align-items: center;
+  border: none;
+  gap: 10px;
+}
+/* header */
+
+.header{
+  max-width: 1920px;
+  width: 100%;
+  height: 700px;
+  background-image: url(../src/assets/headerBcg.png);
+  background-size:auto;
+}
+.header .container{
+  display: flex;
+  flex-direction: column;
+  max-width: 1296px;
+  width: 100%;
+  margin: auto;
+}
+.headerChild{
+  position: relative;
+  top: 180px;
+  max-width: 443px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.headerChildTitle{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+.headerChildTitleP{
+  font-size: 28px;
+  font-weight: 500;
+}
+.headerChildTitleH{
+  font-size: 60px;
+  font-weight: 700;
+}
+.headerBtn{
+  max-width:246px ;
+  padding: 14px 30px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(255, 149, 73);
+  position: relative;
+  top: 40px;  
+}
+
+/* discount */
+
+.discount.container{
+  display: flex;
+  flex-direction: column;
+  max-width: 1296px;
+  width: 100%;
+  margin: auto;
+}
+@media (max-width:376px) {
+  .navbar .container{
+    max-width: 376px;
+    display: flex;
+    flex-direction: row;
+  }
+  .navbarInfoLocAdressP{
+    display: none;
+  }
+  .navbarInfoLocSer{
+    display: none;
+  }
+  .navbarInfoContNum{
+    display: none;
+  }
+  .navbarInfoLine{
+    display: none;
+  }
+  .navbarInfoLoc{
+    display: none;
+  }
+  .navbarInfoContTitle{
+    display: flex;
+    flex-direction: column;
+  }
+  .navbarInfoContTitleLine{
+    display: none;
+  }
+  .header{
+    display: none;
+  }
+  .header.container{
+    display: flex;
+    flex-direction: column;
+  }
+}

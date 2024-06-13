@@ -1,0 +1,149 @@
+.timerParent {
+  max-width: 1920px;
+  width: 100%;
+  background-color: rgb(24 24 24);
+  padding: 20px ;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1296px;
+  width: 100%;
+  margin: auto;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 10px;
+}
+
+.timerTex {
+  color: #fff;
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+
+.timerChild {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.timeCircle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: 5px solid orange;
+  border-radius: 50%;
+  background-color: #222;
+}
+
+.timeNumber {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.timeLabel {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+.colon {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.timerBtn {
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  color: #333;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.guarantes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1920px;
+  width: 100%;
+  margin-top: 60px;
+}
+.guarantesCardLogo{
+  width: 44px;
+  height: 44px;
+}
+.guarantesCard{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  max-width: 416px;
+  padding: 20px;
+  border: 1px solid #939697;
+  border-radius: 10px;
+  align-items: center;
+  gap: 30px;
+}
+.guarantesCardTitle{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.guarantesCardTitleH{
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+.guarantesCardTitleP{
+  font-size: 16px;
+  font-weight: 300;
+  color:white;
+}
+.timerTitle{
+  display: flex;
+  flex-direction: column;
+  width: 1158px;
+  gap: 40px;
+  margin-top: 100px;
+}
+.timerTitleP{
+  width: 1158px;
+  height: 88px;
+font-size: 40px;
+font-weight: 700;
+line-height: 44px;
+text-align: center;
+color: white;
+}
+.timerTitleCard{
+  display: flex;
+  flex-direction: row;
+  width: Fixed (1,296px)px;
+gap: 24px;
+justify-content: center;
+}
+.cardchild{
+
+  width: 196px;
+height:129px;
+}
+.cardchildP{
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media (max-width:376px) {
+    .timer{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+}

@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.category {
+    max-width: 1920px;
+    width: 100%;
+    background-color: rgb(24,24,24);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1296px;
+    width: 100%;
+    margin: auto;
+    color: white;
+    padding: 80px 0;
+    gap: 30px;
+    align-items: center;
+}
+.categoryTitle{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.inputParent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1296px;
+    width: 100%;
+}
+.inputParentChild{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.inputParentP{
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(147, 150, 151);
+}
+select{
+    max-width: 416px;
+    width: 100%;
+    height: 52px;
+    padding: 14px 20px;
+    background-color: rgb(37,44,44);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(147, 150, 151) ;
+}
+
+.headerBtnParent{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 10px;
+    max-width: 320px;
+    width: 100%;
+}
+.headerBtn{
+    max-width: 320px;
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    background-color: rgb(29, 33, 33);
+    border: 1px solid white;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.headerBtn:hover{
+    background-color: rgb(255, 149, 73);
+    color: black;
+}
+.headerImg{
+    display: flex;
+    flex-direction: row;
+    
+}
+.menuParent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 1296px;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    max-width: 1296px;
+    border-radius: 10px;
+    border: 1px solid rgb(147, 150, 151) ;
+    padding: 10px;
+}
+.menuImg{
+    width: 416px;
+height:237px;
+}
+.menuFoot{
+    display: flex;
+    flex-direction: row;
+}
+.charac{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.characName{
+    font-size: 30px;
+    font-weight: 700;
+}
+.characP{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(147, 150, 151);
+}
+del{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 34px;
+    margin-bottom: 24px;
+}
+.charChild{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    gap: 5px;
+}
+.mainBtn{
+    max-width: 155px;
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    background-color: rgb(29, 33, 33);
+    border: 1px solid white;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+}
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+.bannerMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.bannermenuP{
+    font-size: 40px;
+    font-weight: 700;
+}
+.bannerBtn{
+    max-width: 207px;
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    background-color: rgb(255, 149, 73);
+    border: 1px solid black;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+}
